@@ -1,10 +1,17 @@
 # Port Scanner
 
-A simple Python port scanner that supports IPs and domains.
+A simple Python network port scanner that supports IP addresses and domains.  
+It checks common ports and displays whether they are **open** or **closed**.
 
-## Usage
+## Features
+- Scan common TCP ports on a host
+- Supports IP addresses and domain names
+- Easy to extend with custom ports
+- Clear and readable output
 
-Scan a range of ports:
+## Installation
 
+1. Clone the repository:
 ```bash
-python port.py -i google.com -r 1-100
+git clone https://github.com/axif41/Port.scanner.git
+cd Port.scanner
